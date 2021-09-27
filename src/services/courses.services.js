@@ -4,8 +4,9 @@ import axios from 'axios'
 
     constructor(){
         this.app = axios.create({
-            baseURL: process.env.REACT_APP_BASE_URL + '/courses'
+            // baseURL: process.env.REACT_APP_BASE_URL + '/courses'
             // baseURL: 'http://localhost:5000/api/courses'
+            baseURL: 'https://matecumatei.herokuapp.com/api/courses'
         })
     }
 
