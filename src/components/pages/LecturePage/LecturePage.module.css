@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 0.2em;
+  padding: 0.5em 0;
+  background-color: white;
+  width: 80%;
+}
+
+.block {
+  padding: 2px 0;
+  /* text-align: center; */
+}

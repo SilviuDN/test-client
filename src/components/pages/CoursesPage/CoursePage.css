@@ -1,0 +1,22 @@
+.courseCard{
+    margin-bottom: 1.5em;
+}
+
+.courseCard h4{
+    margin-top: .5em;
+    margin-bottom: .8em;
+    height: 3em;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.courseCard img{
+    height: 10em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btnBlock{
+    width: 100%;
+}
