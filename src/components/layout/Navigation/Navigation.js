@@ -34,8 +34,8 @@ const Navigation = ({ storeUser , loggedUser}) => {
                     {!loggedUser
                         ?
                         <>
-                            <Link className="nav-link" to="/signup">SignUp</Link>
-                            <Link className="nav-link" to="/login">LogIn</Link>
+                            {/* <Link className="nav-link" to="/signup">SignUp</Link> */}
+                            {/* <Link className="nav-link" to="/login">LogIn</Link> */}
                         </>
                         :
                         <>
