@@ -62,7 +62,8 @@ class SectionCard extends Component{
                         
                         <div className={classes.block}>
                             <button className="btn btn-dark" onClick={this.toggleShowClasses}>
-                                {this.state.showClasses ? 'Ascunde lectiile' : 'Arata lectiile'}                        
+                                {/* {this.state.showClasses ? 'Ascunde lectiile' : 'Arata lectiile'}                         */}
+                                {this.state.showClasses ? 'Ascunde lectiile' : `Arata ${this.state.section?.lectures.length} lectii`}       
                             </button>                    
                         </div>
                     </div>
